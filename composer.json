@@ -1,0 +1,21 @@
+{
+    "name": "helloextphp/yii2-helloextphp",
+    "description": "Demo For Extension Detail",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dipak Chauhan",
+            "email": "dipak.c@innovify.in"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\helloextphp\\": ""
+        }
+    }
+}
